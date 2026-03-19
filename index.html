@@ -376,12 +376,23 @@ footer{background:var(--navy-dark);padding:56px 6% 32px;border-top:3px solid var
   .float-cta{display:flex}
 }
 @media(max-width:640px){
-  h1.hero-headline{font-size:36px}
+  h1.hero-headline{font-size:32px}
+  .hero-inner{padding:48px 5% 80px}
+  .hero-ctas{flex-direction:column}
+  .cta-primary,.cta-ghost{width:100%;justify-content:center}
   .services-grid{grid-template-columns:1fr}
   .testimonials-grid{grid-template-columns:1fr}
   .f2{grid-template-columns:1fr}
   .footer-top{grid-template-columns:1fr}
-  .form-wrap{padding:28px 22px}
+  .form-wrap{padding:28px 18px}
+  .section{padding:52px 5%}
+  footer{padding-bottom:90px}
+  .contact-note{font-size:12px}
+}
+@media(max-width:380px){
+  h1.hero-headline{font-size:28px}
+  .nav-logo-wrap{width:110px}
+  .hero-stat strong{font-size:28px}
 }
 
 /* NAV LOGO IMAGE */
