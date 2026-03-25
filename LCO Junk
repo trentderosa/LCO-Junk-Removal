@@ -602,7 +602,7 @@ footer{background:var(--navy-dark);padding:56px 6% 32px;border-top:3px solid var
         <div class="ci-icon">&#128100;</div>
         <div>
           <div class="ci-label">Owner</div>
-          <div class="ci-val">Our Team</div>
+          <div class="ci-val">Logan Overhulser</div>
         </div>
       </div>
       <div class="ci">
